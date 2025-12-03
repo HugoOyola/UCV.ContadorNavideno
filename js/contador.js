@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(() => {
           window.location.href = "video.html";
-        }, 600);
+        }, 1500);
       }, 300);
     });
   }
