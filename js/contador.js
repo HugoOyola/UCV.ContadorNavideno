@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         crearTransicion();
 
         setTimeout(() => {
-          window.location.href = "arbol.html";
+          window.location.href = "video.html";
         }, 600);
       }, 300);
     });

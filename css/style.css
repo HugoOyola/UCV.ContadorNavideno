@@ -211,6 +211,7 @@ button {
    =========================== */
 
 .btn-imagen {
+  margin-top: 10rem;
   cursor: pointer;
   transition: transform 0.2s ease, filter 0.2s ease;
   max-width: none; /* Permitir tamaño original */
@@ -326,4 +327,15 @@ body {
   to {
     opacity: 1;
   }
+}
+
+/* VIDEO */
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;     /* Se ajusta al alto de pantalla */
+  width: auto;       /* Mantiene proporción */
+  object-fit: cover; /* Cubre completamente */
 }
