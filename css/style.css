@@ -392,3 +392,37 @@ video {
   width: auto;       /* Mantiene proporción */
   object-fit: cover; /* Cubre completamente */
 }
+
+
+/* ===========================
+   BOTÓN VOLVER (VIDEO.HTML)
+   =========================== */
+
+.btn-volver {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: rgba(7, 101, 241, 0.45);
+  border-radius: 50%;
+  padding: 1.2rem;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(5px);
+}
+
+.btn-volver img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Efecto hover */
+.btn-volver:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.08);
+}

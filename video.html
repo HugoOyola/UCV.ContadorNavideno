@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
+  <title>Encendido del Árbol</title>
 </head>
-<body>
-  <video src="./assets/video/navidad.mp4" autoplay muted loop playsinline></video>
+
+<body class="video-page">
+
+  <!-- BOTÓN VOLVER AL INICIO -->
+  <a href="index.html" class="btn-volver">
+    <img src="./assets/img/home.png" alt="Volver al inicio">
+  </a>
+
+  <!-- VIDEO -->
+  <video id="arbolVideo" autoplay muted loop playsinline>
+    <source src="./assets/video/navidad.mp4" type="video/mp4">
+    Tu navegador no soporta videos en HTML5.
+  </video>
+
 </body>
 </html>
